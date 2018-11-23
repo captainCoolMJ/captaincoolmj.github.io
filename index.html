@@ -12,7 +12,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <meta name="decription" content="Ride safely and reliably in the UAE">
+
+    <title>Caream</title>
 
     <style>
         /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -67,12 +70,13 @@
     <style>
 
         html {
-            font-size: 16px;
+            font-size: 18px;
         }
         
         body {
-            font-family: Arial, sans-serif;
-            font-size: 100%;
+            font: 100%/1.5 normal Arial, sans-serif;
+            color: #0A0A0A;
+            background-color: #FAFAFA;
         }
 
         body {
@@ -85,16 +89,33 @@
             margin: 0 auto;
         }
 
+        .content__inner {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
         .title {
-            font-weight: normal;
+            font-weight: bold;
         }
 
         .title--largest {
-            font-size: 1.25em;
+            font-size: 1.625em;
         }
 
         .text {
             font-size: 1em;
+        }
+
+        .text--link {
+            color: #38B44F;
+        }
+
+        .text--link:hover {
+            color: #1F9947;
+        }
+
+        .text--small {
+            font-size: 0.75em;
         }
     </style>
 </head>
@@ -105,8 +126,15 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <main class="content">
-        <h1 class="title title--largest">Caream</h1>
-        <p class="text">Something cool is coming here</p>
+        <div class="content__inner">
+            <h1 class="title title--largest">Caream</h1>
+            <p class="text">Ride safely and reliably in the UAE</p>
+        </div>
     </main>
+    <footer class="content">
+        <div class="content__inner">
+            <p class="text text--small">Get in touch by sending an email to <a href="mailto:careamuae@gmail.com" class="text text--link">careamuae@gmail.com</a></p>
+        </div>
+    </footer>
 </body>
 </html>
